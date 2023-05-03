@@ -1,0 +1,22 @@
+{
+    "name": "marco-introini/load-tester",
+    "description": "Simple Load Tester for APIs in ReactPHP",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MintDev\\LoadTester\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marco Introini",
+            "email": "mint.dev@pm.me"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "vlucas/phpdotenv": "^5.5",
+        "jfcherng/php-color-output": "^3.0"
+    }
+}
